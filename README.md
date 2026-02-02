@@ -5,8 +5,8 @@ A multi-page, uplifting web app designed to bring comfort and joy during difficu
 ## Features
 
 - **Home Page**: Welcome page with inspirational quotes and virtual hug button
-- **Positive Affirmations**: Page with cards to reveal uplifting messages (شایرانہ شاعری)
-- **Feel-Good Photos**: Gallery of cute photos (Kwity Memories) with fullscreen view
+- **Shayarana Shayari**: Page with cards to reveal uplifting messages
+- **Feel-Good Photos**: Gallery of cute photos with fullscreen view
 - **Instagram Reels**: Watch and enjoy reels with a playlist sidebar to jump to any video
 - **Breathing Exercise**: Interactive guided breathing exercise to help with anxiety
 - **Mood Selector**: Express your feelings with cute kid gifs and receive personalized messages
