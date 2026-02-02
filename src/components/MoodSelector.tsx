@@ -20,8 +20,12 @@ export default function MoodSelector() {
               <div className="absolute inset-0 opacity-0 group-hover:opacity-10 bg-gradient-to-br from-white to-transparent transition-opacity duration-300"></div>
 
               <div className="relative z-10 text-center">
-                <div className="text-6xl mb-4 transform transition-transform duration-300 group-hover:scale-125">
-                  {mood.emoji}
+                <div className="mb-4 transform transition-transform duration-300 group-hover:scale-125">
+                  <img
+                    src={mood.gifUrl}
+                    alt={mood.name}
+                    className="w-24 h-24 rounded-full object-cover mx-auto"
+                  />
                 </div>
                 <h3 className="text-2xl font-bold text-gray-800 mb-2">
                   {mood.name}

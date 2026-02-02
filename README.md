@@ -1,16 +1,18 @@
 # You Are Amazing 💖
 
-A gentle, uplifting web app designed to bring comfort and joy during difficult times.
+A multi-page, uplifting web app designed to bring comfort and joy during difficult times.
 
 ## Features
 
-- **Positive Affirmations**: Click on cards to reveal uplifting messages
-- **Inspirational Quotes**: Rotating quotes that change automatically every 8 seconds
-- **Feel-Good Photos**: Gallery of cute photos (puppies, kittens, nature) with fullscreen view
-- **Breathing Exercise**: An interactive guided breathing exercise to help with anxiety
-- **Virtual Hugs**: Click the hug button to receive virtual hugs with animated hearts
-- **Mood Selector**: Express your feelings with cute panda emojis and receive personalized messages
-- **Beautiful Animations**: Smooth, calming animations throughout the app
+- **Home Page**: Welcome page with inspirational quotes and virtual hug button
+- **Positive Affirmations**: Page with cards to reveal uplifting messages (شایرانہ شاعری)
+- **Feel-Good Photos**: Gallery of cute photos (Kwity Memories) with fullscreen view
+- **Instagram Reels**: Watch and enjoy reels with a playlist sidebar to jump to any video
+- **Breathing Exercise**: Interactive guided breathing exercise to help with anxiety
+- **Mood Selector**: Express your feelings with cute kid gifs and receive personalized messages
+- **Virtual Hugs**: Click for hugs with multiple funny animations and hearts
+- **Navigation**: Easy sidebar navigation for mobile and desktop
+- **Beautiful Animations**: Multiple transition effects and smooth animations throughout
 
 ## Getting Started
 
@@ -105,6 +107,15 @@ npm run deploy
 - Vite
 - Lucide React (for icons)
 
+## Page Structure
+
+- `/` - Home page with quotes and hug button
+- `/affirmations` - Affirmations page (शायराना شایری)
+- `/photos` - Photo gallery (Kwity Memories)
+- `/reels` - Instagram reels with playlist
+- `/breathing` - Breathing exercise
+- `/moods` - Mood selector with cute kid gifs
+
 ## Customization
 
 ### Adding More Quotes
@@ -116,8 +127,14 @@ Edit `src/data/affirmations.ts` and add new affirmation objects with messages an
 ### Adding More Photos
 Edit `src/data/photos.ts` and add new photo objects with image URLs, alt text, and titles.
 
+### Customizing Instagram Reels
+Edit `src/pages/ReelsPage.tsx` and add/modify the `reels` array with your Instagram URLs.
+
 ### Customizing Moods
-Edit `src/data/moods.ts` to add new moods, change descriptions, or customize messages and colors.
+Edit `src/data/moods.ts` to add new moods, change descriptions, customize messages and colors, or update the GIF URLs.
+
+### Changing Button Animations
+The hug button uses randomized animations: wiggle, spin-bounce, flip, and shake. Edit `src/components/HugButton.tsx` to customize.
 
 ### Changing Colors
 The app uses warm, calming colors (pink, orange, yellow, teal). You can customize these in the component files or update the Tailwind config.

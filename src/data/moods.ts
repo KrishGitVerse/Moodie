@@ -1,7 +1,7 @@
 export interface Mood {
   id: string;
   name: string;
-  emoji: string;
+  gifUrl: string;
   description: string;
   color: string;
   bgGradient: string;
@@ -12,7 +12,7 @@ export const moods: Mood[] = [
   {
     id: 'happy',
     name: 'Happy',
-    emoji: '🐼',
+    gifUrl: 'https://media.giphy.com/media/3ohzdKdb7g8N8dj6go/giphy.gif',
     description: 'Feeling joyful',
     color: 'text-yellow-500',
     bgGradient: 'from-yellow-100 to-orange-100',
@@ -21,7 +21,7 @@ export const moods: Mood[] = [
   {
     id: 'loved',
     name: 'Loved',
-    emoji: '🐼',
+    gifUrl: 'https://media.giphy.com/media/xULW8MYkxAl0HjhSAg/giphy.gif',
     description: 'Feeling cherished',
     color: 'text-red-500',
     bgGradient: 'from-red-100 to-pink-100',
@@ -30,7 +30,7 @@ export const moods: Mood[] = [
   {
     id: 'calm',
     name: 'Calm',
-    emoji: '🐼',
+    gifUrl: 'https://media.giphy.com/media/l3q2K5jinAlChoCLS/giphy.gif',
     description: 'Feeling peaceful',
     color: 'text-blue-500',
     bgGradient: 'from-blue-100 to-teal-100',
@@ -39,7 +39,7 @@ export const moods: Mood[] = [
   {
     id: 'hopeful',
     name: 'Hopeful',
-    emoji: '🐼',
+    gifUrl: 'https://media.giphy.com/media/5xtDarqlsEW6F7F29Fl/giphy.gif',
     description: 'Feeling optimistic',
     color: 'text-purple-500',
     bgGradient: 'from-purple-100 to-pink-100',
@@ -48,7 +48,7 @@ export const moods: Mood[] = [
   {
     id: 'strong',
     name: 'Strong',
-    emoji: '🐼',
+    gifUrl: 'https://media.giphy.com/media/3o7TKSjRrsi4XeKcIw/giphy.gif',
     description: 'Feeling confident',
     color: 'text-green-500',
     bgGradient: 'from-green-100 to-emerald-100',
@@ -57,7 +57,7 @@ export const moods: Mood[] = [
   {
     id: 'grateful',
     name: 'Grateful',
-    emoji: '🐼',
+    gifUrl: 'https://media.giphy.com/media/l0MYt5jPR6QX5pnqM/giphy.gif',
     description: 'Feeling thankful',
     color: 'text-indigo-500',
     bgGradient: 'from-indigo-100 to-blue-100',
