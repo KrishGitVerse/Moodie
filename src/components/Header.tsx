@@ -6,7 +6,7 @@ export default function Header() {
       <div className="flex items-center justify-center gap-3 mb-4">
         <Heart className="w-8 h-8 text-rose-400 animate-pulse" fill="currentColor" />
         <h1 className="text-4xl md:text-5xl font-bold bg-gradient-to-r from-rose-400 to-pink-400 bg-clip-text text-transparent">
-          The Kwity Modi
+          Miss - The Kwity Modi
         </h1>
         <Heart className="w-8 h-8 text-rose-400 animate-pulse" fill="currentColor" />
       </div>

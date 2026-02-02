@@ -19,47 +19,47 @@ export interface Photo {
 export const photos: Photo[] = [
   {
     url: cute,
-    alt: "A cutie",
-    title: "Cute Gem"
+    alt: "છોટા પેકેટ બડા ધમાકા",
+    title: "ઢીંગલુ"
   },
   {
     url: sparkle,
-    alt: "Fluffy cat lounging",
-    title: "Cozy Kitty"
+    alt: "Maar khavo che tare😅",
+    title: "મીની Kwity"
   },
   {
     url: saycheese,
-    alt: "Adorable brown puppy",
-    title: "Sweet Pup"
+    alt: "Cheese Mne Bau Bhave🧀",
+    title: "બોલો Cheese"
   },
   {
     url: reeva3,
-    alt: "Peaceful sunrise over mountain",
-    title: "Beautiful Dawn"
+    alt: "Reeva: Kwity, Chuk chuk Ghadi",
+    title: "7th Heaven"
   },
   {
     url: sundar,
-    alt: "Colorful rainbow in nature",
-    title: "After the Storm"
+    alt: "",
+    title: "Hein! Yeh Kya Hui"
   },
   {
     url: reeva,
-    alt: "Playful golden retriever",
-    title: "Happy Dog"
+    alt: "",
+    title: "Two-Beautiful"
   },
   {
     url: reeva2,
-    alt: "Cute orange kitten",
-    title: "Purrfect"
+    alt: "માજા આવે છે kwity, હાજી ઊંચું",
+    title: "ઉદીબાબા"
   },
   {
     url: didi,
-    alt: "Serene forest path",
-    title: "Peace & Calm"
+    alt: "Sister's Love",
+    title: "ડબલ ધમાલ"
   },
   {
     url: garba,
-    alt: "Happy smiling dog",
-    title: "Pure Joy"
+    alt: "હાશ! મેં તો થક ગઈ",
+    title: "ગરબાQueen"
   }
 ];

@@ -8,9 +8,9 @@ export default function Navigation() {
 
   const navLinks = [
     { path: '/', label: 'Home', icon: Home },
-    { path: '/affirmations', label: 'Affirmations', icon: Heart },
-    { path: '/photos', label: 'Photos', icon: Image },
-    { path: '/reels', label: 'Reels', icon: Film },
+    { path: '/affirmations', label: 'Shayari', icon: Heart },
+    { path: '/photos', label: 'Yaadein', icon: Image },
+    // { path: '/reels', label: 'Reels', icon: Film },
     { path: '/breathing', label: 'Breathing', icon: Wind },
     { path: '/moods', label: 'Moods', icon: Smile }
   ];
@@ -54,8 +54,8 @@ export default function Navigation() {
 
       <div className="hidden md:block fixed left-0 top-0 h-screen w-64 bg-gradient-to-br from-pink-100 via-orange-100 to-yellow-100 shadow-xl z-30">
         <div className="p-6">
-          <h1 className="text-2xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-pink-600 to-orange-600 mb-8">
-            You Are Amazing
+          <h1 className="text-2xl font-bold text-transparent text-center bg-clip-text bg-gradient-to-r from-pink-600 to-orange-600 mb-8">
+            You are Amazingly Cutieee 🌻
           </h1>
 
           <div className="space-y-2">

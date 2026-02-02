@@ -18,12 +18,12 @@ function App() {
               <Route path="/" element={<HomePage />} />
               <Route path="/affirmations" element={<AffirmationsPage />} />
               <Route path="/photos" element={<PhotosPage />} />
-              <Route path="/reels" element={<ReelsPage />} />
+              {/* <Route path="/reels" element={<ReelsPage />} /> */}
               <Route path="/breathing" element={<BreathingPage />} />
               <Route path="/moods" element={<MoodsPage />} />
             </Routes>
             <footer className="text-center py-8 text-gray-500 mt-12">
-              <p className="text-sm">Made with love for you 💖</p>
+              <p className="text-sm">Made by Dumbo for you 💖</p>
             </footer>
           </div>
         </div>

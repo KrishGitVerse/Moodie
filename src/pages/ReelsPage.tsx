@@ -9,7 +9,7 @@ export default function ReelsPage() {
   const reels = [
     {
       id: 1,
-      url: 'https://www.instagram.com/reels/DBKsQqKyD5X/',
+      url: 'https://www.instagram.com/p/C58toV_iDYS/?hl=en',
       title: 'Reel 1'
     },
     {

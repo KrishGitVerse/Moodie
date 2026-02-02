@@ -45,11 +45,13 @@ export default function MoodSelector() {
         ))}
       </div>
 
-      {selectedMood && (
+      {/* {selectedMood && (
         <div className="mt-8 animate-fade-in">
           <div className="bg-white rounded-2xl shadow-lg p-8 text-center border-l-4 border-r-4 border-b-4 border-pink-300">
             <div className="text-7xl mb-4 animate-bounce">
-              🐼
+              <div className="mb-4 transform transition-transform duration-300 group-hover:scale-125">
+                  
+                </div>
             </div>
             <h2 className="text-3xl font-bold text-gray-800 mb-4">
               {moods.find(m => m.id === selectedMood)?.name} Mood Confirmed!
@@ -72,7 +74,47 @@ export default function MoodSelector() {
             </button>
           </div>
         </div>
-      )}
+      )} */}
+
+      {selectedMood && (
+  <div className="mt-8 animate-fade-in">
+    <div className="bg-white rounded-2xl shadow-lg p-8 text-center border-l-4 border-r-4 border-b-4 border-pink-300">
+
+      {/* Selected Mood GIF */}
+      <div className="mb-6 flex justify-center">
+        <img
+          src={moods.find(m => m.id === selectedMood)?.gifUrl}
+          alt="Selected mood"
+          className="h-29 rounded-full object-cover animate-bounce shadow-lg"
+        />
+      </div>
+
+      <h2 className="text-3xl font-bold text-gray-800 mb-4">
+        {moods.find(m => m.id === selectedMood)?.name} Mood Confirmed!
+      </h2>
+
+      <p className="text-lg text-gray-600 mb-6">
+        {moods.find(m => m.id === selectedMood)?.message}
+      </p>
+
+      <div className="flex gap-3 justify-center flex-wrap">
+        <span className="text-2xl">🐼</span>
+        <span className="text-2xl">💕</span>
+        <span className="text-2xl">✨</span>
+        <span className="text-2xl">🌟</span>
+        <span className="text-2xl">💫</span>
+      </div>
+
+      <button
+        onClick={() => setSelectedMood(null)}
+        className="mt-6 px-8 py-2 bg-gradient-to-r from-pink-400 to-orange-400 text-white rounded-full font-semibold hover:shadow-lg transition-all duration-300 hover:scale-105"
+      >
+        Select Another Mood
+      </button>
+    </div>
+  </div>
+)}
+
     </div>
   );
 }
