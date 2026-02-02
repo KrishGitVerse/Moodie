@@ -19,7 +19,7 @@ function App() {
 
         <div className="mb-12">
           <h2 className="text-2xl font-bold text-gray-800 text-center mb-8">
-            Positive Affirmations
+            शायराना शायरी
           </h2>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
             {affirmations.map((affirmation, index) => (
@@ -35,7 +35,7 @@ function App() {
 
         <div className="mb-12">
           <h2 className="text-2xl font-bold text-gray-800 text-center mb-8">
-            Feel-Good Photos
+            Kwity Memories
           </h2>
           <PhotoGallery />
         </div>
